@@ -11,7 +11,6 @@ class CharacterEntity {
     required this.origin,
     required this.location,
     required this.image,
-    required this.episode,
     required this.url,
     required this.isFavorite,
   });
@@ -24,7 +23,6 @@ class CharacterEntity {
   final String type;
   final String gender;
   final String image;
-  final List<dynamic> episode;
   final PlaceEntity origin;
   final PlaceEntity location;
   final bool? isFavorite;

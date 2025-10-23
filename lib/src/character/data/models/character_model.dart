@@ -16,7 +16,6 @@ class CharacterModel {
     required this.origin,
     required this.location,
     required this.image,
-    required this.episode,
     required this.url,
   });
 
@@ -28,7 +27,6 @@ class CharacterModel {
   final String type;
   final String gender;
   final String image;
-  final List<dynamic> episode;
   final PlaceModel origin;
   final PlaceModel location;
 
@@ -47,7 +45,6 @@ extension CharacterModelXCharacterEntity on CharacterModel {
     origin: origin.toEntity(),
     location: location.toEntity(),
     image: image,
-    episode: episode,
     url: url,
     isFavorite: false,
   );
