@@ -1,11 +1,11 @@
 
 import 'package:go_router/go_router.dart';
-import 'package:rick_and_morty/src/character/domain/entities/character_entity.dart';
-import 'package:rick_and_morty/src/character/presentation/pages/character_full_page.dart';
-import 'package:rick_and_morty/src/character/presentation/pages/characters_page.dart';
-import 'package:rick_and_morty/src/character/presentation/widgets/my_scaffold.dart';
+import 'package:rick_and_morty/features/character/domain/entities/character_entity.dart';
+import 'package:rick_and_morty/features/character/presentation/pages/character_full_page.dart';
+import 'package:rick_and_morty/features/character/presentation/pages/characters_page.dart';
+import 'package:rick_and_morty/features/character/presentation/pages/favorite_page.dart';
+import 'package:rick_and_morty/features/character/presentation/widgets/my_scaffold.dart';
 
-import '../../src/character/presentation/pages/favorite_page.dart';
 
 GoRouter router = GoRouter(
   initialLocation: '/home',
