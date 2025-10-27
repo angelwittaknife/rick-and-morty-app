@@ -54,7 +54,7 @@ class CharacterEntity {
   final String image;
   final PlaceEntity origin;
   final PlaceEntity location;
-  final bool isFavorite = false;
+  final bool isFavorite;
 
   static Future<CharacterEntity> fromTable(Character character, Place origin, Place location) async {
     return CharacterEntity(
